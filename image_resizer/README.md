@@ -1,11 +1,11 @@
 # Image Resizer
 
-An image tool for cropping and resizing the image using stremlit tool
+An image tool for cropping and resizing the image using stremlit tool.
 
 ![demo](./demo.gif)
 
 ## Running
-This is built on top of streamlit-cropper. Please install first.
+This is built on top of [streamlit-cropper](https://github.com/turner-anderson/streamlit-cropper). Please install first.
 ```shell script
 pip install streamlit-cropper
 ```
