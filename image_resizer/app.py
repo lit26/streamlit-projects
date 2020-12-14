@@ -37,7 +37,7 @@ if img_file:
     else:
         dimensions = ratio_dict[ratio]
 
-    image = cropped_img.resize(dimensions)
+    image = cropped_img.resize(dimensions, Image.ANTIALIAS)
 
     st.write("Adjusted Image")
     st.image(image)
